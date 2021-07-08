@@ -1,1 +1,116 @@
-/* Add CSS styling here */
+/* * {
+    border: 1px solid black;
+} */
+
+html {
+    font-size: 62.5%;
+    background-color: #A8DCD9;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.head h1 {
+    font-size: 3.3rem;
+    color: #60435F;
+}
+
+.head nav {
+    display: flex;
+    align-items: center;
+}
+
+.head nav a {
+    text-decoration: none;
+    margin: 0 .5rem 0 .5rem;
+    padding: .7rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #60435F;
+    background-color: #E2A3C7;
+    border-radius: 5rem;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 1.5rem 0;
+}
+
+.name p {
+    position: absolute;
+    text-align: center;
+    top: 10rem;
+    font-size: 10rem;
+    color: #A8DCD9;
+    text-shadow: .2rem .2rem #60435F;
+}
+.name img {
+    height: 72rem;
+    width: 128rem;
+    border-radius: 0 70% 50% 70%;
+}
+
+.name a{
+    position: absolute;
+    top: 60rem;
+    font-size: 3rem;
+    padding: 1rem;
+    background-color: #E2A3C7;
+    color: #FDF7FA;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    width: 95%;
+}
+
+.gallery img {
+    margin: .5rem 0 .5rem 0;
+}
+
+.gallery p {
+    width: 50rem;
+    font-size: 1.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    color:#60435F;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #60435F;
+    height: 12.5rem;
+    width: 100%;
+}
+
+.footer footer a {
+    text-decoration: none;
+    padding: 1rem;
+    background-color:#E2A3C7;
+    color: #60435F;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+}
+
+.unis {
+    
+}
