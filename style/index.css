@@ -1,1 +1,42 @@
-/* Add CSS styling here */
+* {
+    border: 1px solid black;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #A8DCD9;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head h1 {
+    font-size: 3.3rem;
+    color: #60435F;
+}
+
+.head nav {
+    display: flex;
+    align-items: center;
+}
+
+.head nav a {
+    text-decoration: none;
+    margin: 0 .5rem 0 .5rem;
+    padding: .7rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #60435F;
+}
+
+.name {
+    display: flex;
+    background:url(C:\Users\brenn\Desktop\Web-dev\Lambda\U1\User-Interface-II\style\pics\a-banana.jpg)
+}
