@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid black;
-}
+} */
 
 html {
     font-size: 62.5%;
@@ -85,7 +85,11 @@ body {
 
 .gallery p {
     width: 50rem;
-
+    font-size: 1.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    color:#60435F;
+    font-weight: bold;
 }
 
 .footer {
@@ -105,4 +109,8 @@ body {
     font-weight: bold;
     font-size: 1.3rem;
     border-radius: 2rem;
+}
+
+.unis {
+    
 }
