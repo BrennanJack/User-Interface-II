@@ -10,11 +10,13 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .head {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .head h1 {
@@ -41,6 +43,7 @@ body {
 .name {
     display: flex;
     justify-content: center;
+    padding: 3rem 0 1.5rem 0;
 }
 
 .name p {
@@ -65,5 +68,41 @@ body {
     background-color: #E2A3C7;
     color: #FDF7FA;
     text-decoration: none;
+    border-radius: 2rem;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    width: 95%;
+}
+
+.gallery img {
+    margin: .5rem 0 .5rem 0;
+}
+
+.gallery p {
+    width: 50rem;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #60435F;
+    height: 12.5rem;
+    width: 100%;
+}
+
+.footer footer a {
+    text-decoration: none;
+    padding: 1rem;
+    background-color:#E2A3C7;
+    color: #60435F;
+    font-weight: bold;
+    font-size: 1.3rem;
     border-radius: 2rem;
 }
