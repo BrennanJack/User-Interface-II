@@ -34,9 +34,36 @@ body {
     font-size: 1.4rem;
     font-weight: bold;
     color: #60435F;
+    background-color: #E2A3C7;
+    border-radius: 5rem;
 }
 
 .name {
     display: flex;
-    background:url(C:\Users\brenn\Desktop\Web-dev\Lambda\U1\User-Interface-II\style\pics\a-banana.jpg)
+    justify-content: center;
+}
+
+.name p {
+    position: absolute;
+    text-align: center;
+    top: 10rem;
+    font-size: 10rem;
+    color: #A8DCD9;
+    text-shadow: .2rem .2rem #60435F;
+}
+.name img {
+    height: 72rem;
+    width: 128rem;
+    border-radius: 0 70% 50% 70%;
+}
+
+.name a{
+    position: absolute;
+    top: 60rem;
+    font-size: 3rem;
+    padding: 1rem;
+    background-color: #E2A3C7;
+    color: #FDF7FA;
+    text-decoration: none;
+    border-radius: 2rem;
 }
