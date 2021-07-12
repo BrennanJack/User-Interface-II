@@ -1,6 +1,56 @@
-/* * {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
     border: 1px solid black;
-} */
+    box-sizing: border-box;
+} 
 
 html {
     font-size: 62.5%;
@@ -16,7 +66,9 @@ body {
 .head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
+    height: 7.5vh;
 }
 
 .head h1 {
@@ -42,27 +94,28 @@ body {
 
 .name {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75vh;
     justify-content: center;
+    align-items: center;
     padding: 3rem 0 1.5rem 0;
+    background-image: url('../style/pics/logo_size_icon_invert.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .name p {
-    position: absolute;
     text-align: center;
-    top: 10rem;
     font-size: 10rem;
-    color: #A8DCD9;
-    text-shadow: .2rem .2rem #60435F;
-}
-.name img {
-    height: 72rem;
-    width: 128rem;
-    border-radius: 0 70% 50% 70%;
+    color: #60435F;
+    text-shadow: .2rem .2rem #5a3249;
+    margin-bottom: 5rem;
 }
 
 .name a{
-    position: absolute;
-    top: 60rem;
+    text-align: center;
+    width: 10%;
     font-size: 3rem;
     padding: 1rem;
     background-color: #E2A3C7;
@@ -111,6 +164,14 @@ body {
     border-radius: 2rem;
 }
 
-.unis {
-    
+@media (max-width:500px) {
+    .head {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify
+    }
+    .head nav {
+        flex-direction: column;
+    }
 }
