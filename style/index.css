@@ -132,10 +132,35 @@ body {
     width: 95%;
 }
 
-.gallery img {
+.bgimg {
+    height: 40rem;
+    width: 50rem;
     margin: .5rem 0 .5rem 0;
 }
 
+.one {
+    background-image: url("https://picsum.photos/500/400?random=1");
+}
+
+.two {
+    background-image: url("https://picsum.photos/500/400?random=2");
+}
+
+.five {
+    background-image: url("https://picsum.photos/500/400?random=3");
+}
+
+.six {
+    background-image: url("https://picsum.photos/500/400?random=4");
+}
+
+.nine {
+    background-image: url("https://picsum.photos/500/400?random=5");
+}
+
+.ten {
+    background-image: url("https://picsum.photos/500/400?random=6");
+}
 .gallery p {
     width: 50rem;
     font-size: 1.5rem;
@@ -169,9 +194,57 @@ body {
         width: 100%;
         flex-direction: column;
         align-items: center;
-        justify
+        height: 20vh;
     }
     .head nav {
         flex-direction: column;
+    }
+    .name a{
+        width: 40%;
+    }
+    .bgimg {
+        width: 45%;
+        height: 20vh;
+        background-size: cover;
+    }
+    .gallery p {
+        width: 45%;
+        height: 5vh;
+    }
+    .one {
+        order: 1;
+    }
+    .two {
+        order: 2;
+    }
+    .three {
+        order: 3;
+    }
+    .four {
+        order: 4;
+    }
+    .five {
+        order: 5;
+    }
+    .six {
+        order: 6;
+    }
+    .seven {
+        order: 7;
+    }
+    .eight {
+        order: 8;
+    }
+    .nine {
+        order: 9;
+    }
+    .ten {
+        order: 10;
+    }
+    .eleven {
+        order: 11;
+    }
+    .twelve {
+        order: 12;
     }
 }
